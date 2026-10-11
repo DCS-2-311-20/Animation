@@ -41,7 +41,7 @@ function init() {
   const renderer = new THREE.WebGLRenderer();
   renderer.setSize( window.innerWidth, window.innerHeight );
   renderer.setClearColor( 0x104040 );
-  document.getElementById("WebGL-output")
+  document.getElementById("webgl")
     .appendChild(renderer.domElement);
 
   // 描画関数の定義
